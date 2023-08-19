@@ -33,7 +33,7 @@ function Login() {
             <p>Your Email</p>
             <input type="text" value={user} onChange={(e) => { setusername(e.target.value) }} placeholder="Username" ></input>
             <p>Your Password</p>
-            <input type="text" value={pass} onChange={(e) => { setpass(e.target.value) }} placeholder="password"></input>
+            <input type="password" value={pass} onChange={(e) => { setpass(e.target.value) }} placeholder="password"></input>
             <br/>
             <br/>
             <button onClick={auth}>Login</button>

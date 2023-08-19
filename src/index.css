@@ -70,7 +70,7 @@
 }
 #Login input,#Login button
 {
-  width:100%;
+  width:95%;
   
 }
 
@@ -81,5 +81,9 @@
   border-color: #514aef;
   color: white;
   padding: 5px 0px;
+}
+body
+{
+  margin: 0%;
 }
 
